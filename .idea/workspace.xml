@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66abe05d-19eb-4525-8abe-2b6d3a55bc55" name="Default Changelist" comment="" />
+    <list default="true" id="66abe05d-19eb-4525-8abe-2b6d3a55bc55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ResendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ResendPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e8629b9a-2e9d-4a1e-995f-a192ffa116d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SimpleUITest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SimpleUITest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SimpleUITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SimpleUITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ResendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ResendPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleUITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleUITest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -27,11 +41,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimpleUITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -39,10 +64,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="104" selection-start-line="34" selection-start-column="104" selection-end-line="34" selection-end-column="104" />
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
               </folding>
@@ -50,15 +74,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ResendPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,14 +97,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SimpleUITest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ResendPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SimpleUITest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -97,6 +125,7 @@
     <option name="width" value="1284" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -110,35 +139,6 @@
               <item name="testWrike" type="b2602c69:ProjectViewProjectNode" />
               <item name="testWrike" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="testWrike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testWrike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testWrike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testWrike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testWrike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testWrike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testWrike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testWrike" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testWrike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testWrike" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,6 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -198,39 +199,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 12m 57s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 20h 58m 06s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 17m 02s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 21h 10m 45s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 19m 17s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 21h 13m 14s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 19m 55s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 21h 19m 12s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 21m 16s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 21h 21m 35s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 21m 52s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 22h 14m 24s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 13h 39m 44s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 22h 49m 01s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 14h 00m 31s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 23h 12m 40s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 14h 02m 13s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.18 at 23h 54m 33s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_testWrike - 2019.05.18 at 14h 37m 45s.xml">
+    <history-entry file="All_in_testWrike - 2019.05.19 at 00h 08m 39s.xml">
       <configuration name="All in testWrike" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -244,7 +246,7 @@
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -263,42 +265,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="104" selection-start-line="34" selection-start-column="104" selection-end-line="34" selection-end-column="104" />
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleUITest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ResendPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ResendPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleUITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

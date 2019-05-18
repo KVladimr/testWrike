@@ -10,7 +10,7 @@ public class HomePage {
 
     private WebDriver driver;
 
-    private final String homeURL = "https://www.wrike.com/";
+    private static final String homeURL = "https://www.wrike.com/";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -45,12 +45,4 @@ public class HomePage {
 
         return resendPage;
     }
-
-    /*public ResendPage submitEmailEnter() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement button = driver.findElement(By.xpath("//label[@class='modal-form-trial__label']/button"));
-        button.click();
-        wait.until(ExpectedConditions.stalenessOf(button));
-        return new ResendPage(driver);
-    }*/
 }
