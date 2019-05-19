@@ -44,6 +44,7 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit4</artifactId>
             <version>${allure-junit4.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

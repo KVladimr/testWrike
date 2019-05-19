@@ -17,7 +17,7 @@ public class ResendPage {
         this.driver = driver;
     }
 
-    @Step
+    @Step(value = "Fill in the Q&A section with random answers")
     public ResendPage fillQAFormWithRandomAnswers() {
         List<WebElement> questions = driver.findElements(By.xpath("//form[@name='survey-form']//div"));
         Random random = new Random();
@@ -35,7 +35,7 @@ public class ResendPage {
         return this;
     }
 
-    @Step
+    @Step(value = "Submit Q&A form")
     public ResendPage submitQAForm() {
         // successful submit label
         WebElement successElement = driver.findElement(By.xpath("//div[@class='survey-success']"));
@@ -51,7 +51,7 @@ public class ResendPage {
         return this;
     }
 
-    @Step
+    @Step(value = "Click on \"Resend email\" button")
     public ResendPage clickOnResendEmailButton() {
         // There are two identical buttons and I don't know how to choose the one I need
         // So, I just take the last one
@@ -66,21 +66,28 @@ public class ResendPage {
         return this;
     }
 
-    @Step
+    @Step(value = "Check that section \"Follow us\" at the site footer contains the \"Twitter\" button")
     public ResendPage checkTwitterButton() {
         Assert.assertTrue(twitterButtonExists());
         return this;
     }
 
     // checks if there is a button with correct twitter link
-    // can't get how to check icons :(
     private boolean twitterButtonExists() {
         final String correctURL = "https://twitter.com/wrike";
+        final String correctIconPath = "/content/themes/wrike/dist/img/sprite/vector/footer-icons.symbol.svg?v2#twitter";
         List<WebElement> buttons = driver.findElements(By.xpath("//*[text()='Follow us']/following-sibling::ul//a"));
         for (WebElement button : buttons) {
             String url = button.getAttribute("href");
+            // check if there is a button with correct link
             if (url.equals(correctURL)) {
-                return true;
+                // there is button with correct link, so check its icon
+                String iconPath = button
+                        .findElement(By.xpath(".//*[local-name()='use']"))
+                        .getAttribute("xlink:href");
+                if (iconPath.equals(correctIconPath)) {
+                    return true;
+                }
             }
         }
         return false;

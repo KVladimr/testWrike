@@ -16,19 +16,20 @@ public class HomePage {
         this.driver = driver;
     }
 
-    @Step
+    @Step(value = "Go to Wrike.com")
     public HomePage openHomePage() {
         driver.get(homeURL);
         return this;
     }
 
-    @Step
+    @Step(value = "Click \"Get started for free\" button near \"Login\" button")
     public HomePage clickHeaderGetStartedButton() {
         driver.findElement(By.xpath("//div[@class='r']//button[contains(text(),'Get started')]")).click();
         return this;
     }
 
-    @Step
+    @Step(value = "Fill in the email field with random generated value of email " +
+            "and Click on \"Create my Wrike account\" button")
     public ResendPage fillAndSubmitEmail(String email) {
         String beforeURL = driver.getCurrentUrl();
 
