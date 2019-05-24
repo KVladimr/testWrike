@@ -1,10 +1,14 @@
+package tests;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.Footer;
+import pages.HomePage;
+import pages.ResendPage;
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class SimpleUITest {
 
@@ -18,28 +22,37 @@ public class SimpleUITest {
     @Before
     public void setUp() {
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @After
     public void tearDown() {
         if (driver != null) {
+            driver.close();
             driver.quit();
         }
     }
 
     @Test
     public void simpleTest() {
-        HomePage homePage = new HomePage(driver);
         String email = randomString(4, 15) + "+wpt@wriketask.qaa";
 
-        homePage.openHomePage()
-                .clickHeaderGetStartedButton()
-                .fillAndSubmitEmail(email)
-                .fillQAFormWithRandomAnswers()
-                .submitQAForm()
-                .clickOnResendEmailButton()
-                .checkTwitterButton();
+        HomePage homePage = new HomePage(driver);
+        homePage.openHomePage();
+        homePage.clickHeaderGetStartedButton();
+        homePage.fillEmailField(email);
+
+        String beforeURL = homePage.getCurrentURL();
+        ResendPage resendPage = homePage.submitEmailWithSuccess();
+        Assert.assertNotEquals(beforeURL, resendPage.getCurrentURL());
+
+        resendPage.fillQAFormWithRandomAnswers();
+        resendPage.clickSubmitQAFormButton();
+        Assert.assertTrue(resendPage.isSubmitSuccessful());
+        resendPage.clickOnResendEmailButton();
+        Assert.assertTrue(resendPage.verifyResendButtonDisappeared());
+
+        Footer footer = new Footer(driver);
+        Assert.assertTrue(footer.isTwitterButtonPresent());
     }
 
     private String randomString(int minLength, int maxLength) {
